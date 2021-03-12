@@ -1,0 +1,424 @@
+/*=================================================================*/
+/*==== BASIC SECTION====*/
+/*=================================================================*/
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap');
+.alignleft{
+	float: left;
+	margin-right: 1.5rem; 
+}
+.alignright{
+	float: right;
+	margin-left: 1.5rem;
+} 
+.aligncenter{
+	display: block;
+	margin: 0 auto 1.5rem;
+}
+
+html{
+	font-size: 10px;
+}
+
+a:focus, input:focus, textarea:focus, button:focus, {
+	outline: 0 solid;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 1.5rem;
+	font-weight: 400;
+	color: #373737;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+	font-size: 4rem;
+}
+
+h3{
+	font-size: 3rem;
+}
+
+p {
+    line-height: 2.5rem;
+}
+
+body{
+    font-family: 'Khula', sans-serif;
+	font-size: 1.5rem;
+	color: #999999;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+
+/*=================================================================*/
+/*==== HEADER SECTION ====*/
+/*=================================================================*/
+
+.mainemanu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainemanu li {
+    position: relative;
+    display: inline-block;
+}
+
+.mainemanu li a {
+    display: block;
+    font-size: 1.5rem;
+    color: #888888;
+    padding: 1.1rem 2rem;
+}
+
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    display: inline-block;
+    color: #fff;
+    background: #EF476F;
+    font-size: 1.5rem;
+    padding: 1.1rem 2.2rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.header-area {
+    padding: 2rem;
+}
+
+/*=================================================================*/
+/*==== HERO SECTION ====*/
+/*=================================================================*/
+
+.hero-area h1 {
+    font-size: 4rem;
+    max-width: 40rem;
+    margin-top: 2rem;
+}
+
+.hero-area {
+    font-weight: 300;
+    padding: 15rem 0;
+    border-bottom: .1rem solid #F6F6F6;
+}
+
+input[type="url"], input[type="email"], input[type="tel"], input[type="password"], input[type="text"], textarea {
+    border: .1rem solid #F0F0F0;
+    padding: 1rem 1.5rem;
+}
+
+input[type="submit"], button[type="submit"] {
+    padding: 1.1rem 3rem;
+    margin-left: 1rem;
+    font-weight: 400;
+    border-radius: .2rem;
+}
+
+.hero-area p {
+    margin-bottom: 3rem;
+}
+
+
+/*=================================================================*/
+/*==== SERVICE SECTION ====*/
+/*=================================================================*/
+
+
+.section-padding {
+    padding: 11rem 0;
+}
+
+.tittle-section {
+    margin-bottom: 10rem;
+}
+
+.single-service-box {
+    border: .1rem solid #F9F9F9;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: .5s;
+}
+
+.single-service-box p {
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+a.read-more-button {
+    color: #373737;
+    font-size: 1.8rem;
+}
+
+svg.svg-inline--fa.fa-arrow-right.fa-w-14 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #5A5657;
+}
+
+.single-service-box:hover {
+    border-color: #ef476f;
+}
+
+.single-service-box:hover a.read-more-button, .single-service-box:hover .service-icon, .single-service-box:hover h3 {
+    color: #ef476f;
+}
+
+.pdt-50 {
+    margin-top: 5rem;
+}
+
+.pdt-50 .boxed-btn {
+    margin-top: 2rem;
+}
+
+.pdt-50 h2 {
+    line-height: 4.5rem;
+}
+
+
+/*=================================================================*/
+/*==== CASE-STUDY SECTION ====*/
+/*=================================================================*/
+
+.gray-bg{
+	background: #FBFBFB;
+}
+
+.single-case-study {
+    display: table;
+    width: 100%;
+    height: 32rem;
+    background: #ddd;
+    position: relative;
+}
+
+.case-study-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2rem;
+    text-align: center;
+    background: #EF476F;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+a.read-more {
+    width: 3rem;
+    height: 3rem;
+    background: #fff;
+    display: inline-block;
+    line-height: 3.5rem;
+    border-radius: 50%;
+    margin-top: 4rem;
+}
+
+.read-more svg.svg-inline--fa.fa-arrow-right.fa-w-14 {
+    margin: 0;
+}
+
+.single-case-study:hover .case-study-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+
+.case-studies-carosel.owl-carousel .owl-stage-outer {
+	overflow: inherit;
+}
+
+.section-padding.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.owl-dots div {
+    height: .3rem;
+    width: 2rem;
+    background: #ddd;
+    display: inline-block;
+    margin: .5rem;
+}
+
+.owl-dots {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+.owl-dots div.active {
+    background-color: #EF476F;
+}
+
+.tastimonial-content {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #373737;
+}
+
+.tastimonial-meta img, .owl-carousel .owl-item .tastimonial-meta img {
+    width: 10rem;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.tastimonial-carosel .owl-dots {
+    margin-top: 3rem;
+}
+
+.cta-area{
+	background: #F8F8F8;
+	padding: 5rem;
+}
+
+.cta-area h2 {
+    margin: 0 0;
+    padding-top: 1rem;
+}
+
+
+/*=================================================================*/
+/*==== PRICING SECTION ====*/
+/*=================================================================*/
+
+.single-pricing-box {
+    border: .2rem solid #f7f7f7;
+    padding: 3rem;
+    margin-top: 5rem;
+    transition: .2s;
+	margin-bottom: 10rem;
+}
+
+.pricing-header {
+    border-bottom: .2rem solid #f3f2f2;
+    transition: .2s;
+}
+
+.pricing-header h3 {
+    font-weight: 400;
+}
+
+.pricing-header .pricing-count {
+    font-size: 4rem;
+    color: #ef476f;
+    font-weight: 400;
+    line-height: 5rem;
+}
+
+.content ul {
+    margin: 0 0 2rem;
+    padding: 0;
+    list-style: none;
+    line-height: 3.5rem;
+}
+
+.content {
+    margin-top: 4rem;
+}
+
+.single-pricing-box .boxed-btn {
+    padding: 1rem;
+}
+
+.single-pricing-box:hover {
+    border-color: #ec8da3;
+}
+
+.single-pricing-box:hover .pricing-header {
+    border-color: #ec8da3;
+}
+
+.singel-logo-item {
+    display: table;
+    width: 100%;
+    height: 10rem;
+    opacity: 0.5;
+}
+
+.logo-item-iner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.singel-logo-item:hover {
+    opacity: 1;
+}
+
+
+
+
+/*=================================================================*/
+/*==== POOTER SECTION ====*/
+/*=================================================================*/
+
+
+.pooter-area{
+	background: #FDFDFD;
+	padding: 8rem 0;
+}
+
+.pooter-area h4 {
+    font-size: 2.1rem;
+    color: #373737;
+}
+
+.pooter-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pooter-area ul li a {
+    font-size: 1.5rem;
+    color: #999999;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.email-subscribe input[type="email"] {
+    width: 65%;
+    background: #F6F6F6;
+    border-color: #FDFDFD;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.email-subscribe input[type="submit"] {
+    width: 28%;
+    padding: 1rem;
+    margin-left: inherit;
+}
+
+.pooter-area ul.social-links li {
+    display: inline-block;
+    width: 30%;
+}
+
+.copyright {
+    background: #F7F7F7;
+    padding: 1.5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+

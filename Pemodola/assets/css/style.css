@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    
+    background-color: #787bcc;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header, .content-block.content-bg {
+    background-image: url(../img/img-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.logo a {
+    list-style: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header:after, a.boder-grdiant{
+    background: #3433a1;
+    background: -moz-linear-gradient(-45deg,  #3433a1 0%, #a168c6 100%);
+    background: -webkit-linear-gradient(-45deg,  #3433a1 0%,#a168c6 100%);
+    background: linear-gradient(135deg,  #3433a1 0%,#a168c6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3433a1', endColorstr='#a168c6',GradientType=1 );
+}
+
+.header:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .8;
+    z-index: -1;
+}
+
+a.boder-btn img, a.boder-grdiant img {
+    max-width: 20px;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+}
+.hero-text {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h3 {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.hero-text h1 {
+    font-size: 120px;
+    font-weight: 100;
+}
+
+a.boder-btn, a.boder-grdiant{
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    padding-right: 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    top: 15px;
+}
+
+a.boder-grdiant{
+    border:none;
+}
+
+.content-block {
+    background: #fff;
+    padding: 100px 50px;
+}
+
+.row {
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.col {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-block h3 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.content-block.content-bg .col {
+    max-width: 50%;
+}
+
+.content-block.content-bg .row {
+    justify-content: flex-end;
+    color: #fff;
+}
+
+
