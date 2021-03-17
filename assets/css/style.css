@@ -87,7 +87,7 @@ body {
 }
 
 a.button:hover{
-    background-color: #ddd; 
+    background-color: #b1981f; 
     color: #000;
     transition: .5s;
 }
