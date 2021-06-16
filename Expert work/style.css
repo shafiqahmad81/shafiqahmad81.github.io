@@ -1,0 +1,152 @@
+ <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap" rel="stylesheet">
+.alignleft{
+	float: left;
+	margin-right: 15px; 
+}
+.alignright{
+	float: right;
+	margin-left: 15px;
+} 
+.aligncenter{
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus, {
+	outline: 0 solid;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 400;
+	color: #000000;
+}
+body{
+	font-family: 'Khula', sans-serif;
+	font-size: 15px;
+	color: #000000;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.expert {
+    margin-top: 50px;
+}
+
+.expert h1 {
+    font-size: 60px;
+}
+.expert-r h1 {
+    font-size: 60px;
+}
+
+.aboute h1 {
+    font-size: 60px;
+}
+.expert p {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.voece {
+    margin-left: 15px;
+    margin-top: 45px;
+}
+
+.voece h3 {
+    font-size: 22px;
+    color: #000000;
+}
+
+.voece p {
+    font-size: 16px;
+    margin-top: 50px;
+}
+span{
+	background:#15D275; 
+	color:#fff;
+}
+h1 span{
+	background: #FFFFFF;
+	color: #15D275;
+}
+input[type="url"] {
+    border: 1px solid #EFEFEF;
+    padding: 7px 15px;
+    padding-right: 50px;
+    margin: 4px;
+    background: #F5F5F5;
+}
+
+input[type="submit"] {
+    display: list-item;
+}
+.webside-cheker-form input[type=submit], button[type=submit] {
+    border: none;
+    background: #15D275;
+    color: #fff;
+    display: list-item;
+    padding: 3px 32px;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.webside-cheker-form {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.expert-r {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.expert-r p {
+    font-size: 17px;
+    margin-top: -8px;
+}
+
+.expert-r h3 {
+    margin-top: 50px;
+}
+p.p-under {
+    font-size: 18px;
+}
+.aboute {
+    margin-top: 225px;
+    margin-left: 50px;
+}
+.aboute p {
+    margin-top: -8px;
+    font-size: 20px;
+}
+.aboute .under {
+    font-size: 22px;
+}
+
+.aboute h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
